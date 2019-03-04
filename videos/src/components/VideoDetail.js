@@ -11,7 +11,7 @@ const VideoDetail = ({ video }) => {
     <div>
       <div className="ui embed">
         <iframe
-          allowfullscreen="allowfullscreen"
+          allowFullScreen="allowFullScreen"
           mozallowfullscreen="mozallowfullscreen"
           msallowfullscreen="msallowfullscreen"
           oallowfullscreen="oallowfullscreen"
