@@ -59,7 +59,9 @@ class StreamList extends React.Component {
     return (
       <div>
         <h2>Streams</h2>
-        <div className="ui ceiled list">{this.renderList()}</div>
+        <div className="ui middle aligned divided list">
+          {this.renderList()}
+        </div>
         {this.renderCreate()}
       </div>
     );
